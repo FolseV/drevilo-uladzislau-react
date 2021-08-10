@@ -9,10 +9,16 @@ const ButtonsIncreaseDecrease1 = () => {
 
   return (
     <div className="buttons">
-      <p>кнопки +1 и -1</p>
-      <button onClick={() => handleClick(+1)}> Click me + 1 </button>
+      <p>Task-1-1 Kнопки +1 и -1</p>
+      <button onClick={() => handleClick(+1)} className="leftButton">
+        {" "}
+        Click me + 1{" "}
+      </button>
       {state}
-      <button onClick={() => handleClick(-1)}> Click me - 1 </button>
+      <button onClick={() => handleClick(-1)} className="rightButton">
+        {" "}
+        Click me - 1{" "}
+      </button>
     </div>
   );
 };

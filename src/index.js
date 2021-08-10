@@ -3,10 +3,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import ButtonsIncreaseDecrease1 from "./hw-3-1/1-1";
+import ButtonsIncreaseDecrease1 from "./hw-3-1/task-1-1";
+import SameInputs from "./hw-3-1/task-1-2";
 
 ReactDOM.render(
-  <ButtonsIncreaseDecrease1 />,
+  <>
+    <ButtonsIncreaseDecrease1 />
+    <SameInputs />
+  </>,
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>,
