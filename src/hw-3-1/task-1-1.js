@@ -10,12 +10,12 @@ const ButtonsIncreaseDecrease1 = () => {
   return (
     <div className="buttons">
       <p>Task-1-1 Kнопки +1 и -1</p>
-      <button onClick={() => handleClick(+1)} className="leftButton">
+      <button onClick={() => handleClick(+1)} className="button">
         {" "}
         Click me + 1{" "}
       </button>
       {state}
-      <button onClick={() => handleClick(-1)} className="rightButton">
+      <button onClick={() => handleClick(-1)} className="button">
         {" "}
         Click me - 1{" "}
       </button>

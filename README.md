@@ -2,7 +2,7 @@
 
 - Task 1-1 -- done
 - Task 1-2 -- done
-- Task 1-3 --
+- Task 1-3 -- done
 
 # Getting Started with Create React App
 

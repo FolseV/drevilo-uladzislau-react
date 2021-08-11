@@ -5,11 +5,13 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import ButtonsIncreaseDecrease1 from "./hw-3-1/task-1-1";
 import SameInputs from "./hw-3-1/task-1-2";
+import RandomWord from "./hw-3-1/task-1-3";
 
 ReactDOM.render(
   <>
     <ButtonsIncreaseDecrease1 />
     <SameInputs />
+    <RandomWord />
   </>,
   // <React.StrictMode>
   //   <App />

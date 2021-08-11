@@ -17,25 +17,20 @@ code {
   margin-bottom: 50px;
 }
 
-.leftButton {
+.inputs {
+  margin-bottom: 50px;
+}
+
+.button {
   margin-right: 20px;
-  background-color: #4caf50;
-  border-radius: 4px;
-  padding: 12px 28px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.leftButton:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-.rightButton {
   margin-left: 20px;
   background-color: #4caf50;
   border-radius: 4px;
   padding: 12px 28px;
+  margin-bottom: 20px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.rightButton:hover {
+.button:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
